@@ -1,0 +1,11 @@
+# Arquivos locais do Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Arquivos de variáveis com senhas
+*.tfvars
+*.auto.tfvars
+
+# Logs de crash
+crash.log
