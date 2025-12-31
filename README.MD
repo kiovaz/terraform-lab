@@ -1,4 +1,4 @@
-# terraform-aws-labs
+# terraform-lab
 
 ## Estrutura dos Labs
 
