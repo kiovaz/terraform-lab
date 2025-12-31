@@ -1,12 +1,7 @@
-resource "aws_s3_bucket" "b" {
-    bucket = var.bucket_s3
+resource "aws_s3_bucket" "bucket" {
+    bucket = var.bucket_name
 
     tags = {
-    Name        = var.bucket_s3
-    Environment = "Dev"
-    ManagedBy   = "Terraform"
+    Name = var.bucket_name
     }
 }
-
-
-

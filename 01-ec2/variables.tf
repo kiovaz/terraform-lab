@@ -1,5 +1,5 @@
-variable "instance_ec2" {
-description = "Instância EC2"
-type        = string
-default     = "Web-Server-1"
+variable "instance_name" {
+    description = "instância EC2"
+    type        = string
+    default     = "web-server"
 }

@@ -1,6 +1,5 @@
-variable "bucket_s3"{
+variable "bucket_name" {
     description = "bucket S3"
-    type = string
-    default = "bucket-terraform-lab"
+    type        = string
+    default     = "my-terraform-bucket-12345"
 }
-
